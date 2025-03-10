@@ -1,13 +1,23 @@
 ## To Run: 
 
-cd ./lab_5/backend 
 
-python3 app.py 
+### backend 
 
-new terminal session 
+cd backend 
 
-cd ./lab_5/frontend 
+./gradlew build 
 
-python3 -m http.server 8000 
+in separate terminal: mysql -u root -p 
+enter mysql password to start 
+
+./gradlew bootRun 
+
+
+### frontend 
+
+cd frontend 
+
+npm start 
+
 
 
