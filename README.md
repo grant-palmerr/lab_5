@@ -11,6 +11,9 @@ in separate terminal: mysql -u root -p
 
 enter mysql password to start 
 
+
+Back inside the intelliJ terminal: 
+
 ./gradlew bootRun 
 
 
